@@ -12,4 +12,4 @@ build/
 dist/
 
 # Ignore misc
-.md
+steps.md
