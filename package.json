@@ -1,0 +1,31 @@
+{
+  "name": "restful-api-ts-node",
+  "version": "1.0.0",
+  "description": "Restful api nodejs ts mongodb",
+  "main": "src/server.ts",
+  "scripts": {
+    "build": "rm -rf build/ && tsc",
+    "start": "node build/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BernhardSilva/restful-api-node-ts-base.git"
+  },
+  "author": "Bernhard Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BernhardSilva/restful-api-node-ts-base/issues"
+  },
+  "homepage": "https://github.com/BernhardSilva/restful-api-node-ts-base#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "joi": "^17.9.2",
+    "mongoose": "^7.2.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
